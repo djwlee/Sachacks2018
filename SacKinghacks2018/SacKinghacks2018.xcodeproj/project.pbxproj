@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54A8B01221A0B99500635AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B01121A0B99500635AB8 /* AppDelegate.swift */; };
-		54A8B01421A0B99500635AB8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B01321A0B99500635AB8 /* MasterViewController.swift */; };
-		54A8B01621A0B99500635AB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B01521A0B99500635AB8 /* DetailViewController.swift */; };
-		54A8B01921A0B99500635AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B01721A0B99500635AB8 /* Main.storyboard */; };
-		54A8B01B21A0B99600635AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B01A21A0B99600635AB8 /* Assets.xcassets */; };
-		54A8B01E21A0B99600635AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B01C21A0B99600635AB8 /* LaunchScreen.storyboard */; };
-		54A8B02921A0B99600635AB8 /* Sachacks2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B02821A0B99600635AB8 /* Sachacks2018Tests.swift */; };
-		54A8B03421A0B99600635AB8 /* Sachacks2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B03321A0B99600635AB8 /* Sachacks2018UITests.swift */; };
+		54A8B04E21A0BEA000635AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B04D21A0BEA000635AB8 /* AppDelegate.swift */; };
+		54A8B05021A0BEA000635AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B04F21A0BEA000635AB8 /* ViewController.swift */; };
+		54A8B05321A0BEA000635AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B05121A0BEA000635AB8 /* Main.storyboard */; };
+		54A8B05521A0BEA100635AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B05421A0BEA100635AB8 /* Assets.xcassets */; };
+		54A8B05821A0BEA100635AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B05621A0BEA100635AB8 /* LaunchScreen.storyboard */; };
+		54A8B06321A0BEA100635AB8 /* SacKinghacks2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B06221A0BEA100635AB8 /* SacKinghacks2018Tests.swift */; };
+		54A8B06E21A0BEA100635AB8 /* SacKinghacks2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B06D21A0BEA100635AB8 /* SacKinghacks2018UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54A8B02521A0B99600635AB8 /* PBXContainerItemProxy */ = {
+		54A8B05F21A0BEA100635AB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A8B00621A0B99500635AB8 /* Project object */;
+			containerPortal = 54A8B04221A0BEA000635AB8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54A8B00D21A0B99500635AB8;
-			remoteInfo = Sachacks2018;
+			remoteGlobalIDString = 54A8B04921A0BEA000635AB8;
+			remoteInfo = SacKinghacks2018;
 		};
-		54A8B03021A0B99600635AB8 /* PBXContainerItemProxy */ = {
+		54A8B06A21A0BEA100635AB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A8B00621A0B99500635AB8 /* Project object */;
+			containerPortal = 54A8B04221A0BEA000635AB8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54A8B00D21A0B99500635AB8;
-			remoteInfo = Sachacks2018;
+			remoteGlobalIDString = 54A8B04921A0BEA000635AB8;
+			remoteInfo = SacKinghacks2018;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54A8B00E21A0B99500635AB8 /* Sachacks2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sachacks2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A8B01121A0B99500635AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54A8B01321A0B99500635AB8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		54A8B01521A0B99500635AB8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		54A8B01821A0B99500635AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54A8B01A21A0B99600635AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54A8B01D21A0B99600635AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54A8B01F21A0B99600635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54A8B02421A0B99600635AB8 /* Sachacks2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sachacks2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A8B02821A0B99600635AB8 /* Sachacks2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sachacks2018Tests.swift; sourceTree = "<group>"; };
-		54A8B02A21A0B99600635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54A8B02F21A0B99600635AB8 /* Sachacks2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sachacks2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A8B03321A0B99600635AB8 /* Sachacks2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sachacks2018UITests.swift; sourceTree = "<group>"; };
-		54A8B03521A0B99600635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A8B04A21A0BEA000635AB8 /* SacKinghacks2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SacKinghacks2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A8B04D21A0BEA000635AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A8B04F21A0BEA000635AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A8B05221A0BEA000635AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A8B05421A0BEA100635AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A8B05721A0BEA100635AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A8B05921A0BEA100635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A8B05E21A0BEA100635AB8 /* SacKinghacks2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacKinghacks2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A8B06221A0BEA100635AB8 /* SacKinghacks2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacKinghacks2018Tests.swift; sourceTree = "<group>"; };
+		54A8B06421A0BEA100635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A8B06921A0BEA100635AB8 /* SacKinghacks2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacKinghacks2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A8B06D21A0BEA100635AB8 /* SacKinghacks2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacKinghacks2018UITests.swift; sourceTree = "<group>"; };
+		54A8B06F21A0BEA100635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54A8B00B21A0B99500635AB8 /* Frameworks */ = {
+		54A8B04721A0BEA000635AB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02121A0B99600635AB8 /* Frameworks */ = {
+		54A8B05B21A0BEA100635AB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02C21A0B99600635AB8 /* Frameworks */ = {
+		54A8B06621A0BEA100635AB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54A8B00521A0B99500635AB8 = {
+		54A8B04121A0BEA000635AB8 = {
 			isa = PBXGroup;
 			children = (
-				54A8B01021A0B99500635AB8 /* Sachacks2018 */,
-				54A8B02721A0B99600635AB8 /* Sachacks2018Tests */,
-				54A8B03221A0B99600635AB8 /* Sachacks2018UITests */,
-				54A8B00F21A0B99500635AB8 /* Products */,
+				54A8B04C21A0BEA000635AB8 /* SacKinghacks2018 */,
+				54A8B06121A0BEA100635AB8 /* SacKinghacks2018Tests */,
+				54A8B06C21A0BEA100635AB8 /* SacKinghacks2018UITests */,
+				54A8B04B21A0BEA000635AB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54A8B00F21A0B99500635AB8 /* Products */ = {
+		54A8B04B21A0BEA000635AB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54A8B00E21A0B99500635AB8 /* Sachacks2018.app */,
-				54A8B02421A0B99600635AB8 /* Sachacks2018Tests.xctest */,
-				54A8B02F21A0B99600635AB8 /* Sachacks2018UITests.xctest */,
+				54A8B04A21A0BEA000635AB8 /* SacKinghacks2018.app */,
+				54A8B05E21A0BEA100635AB8 /* SacKinghacks2018Tests.xctest */,
+				54A8B06921A0BEA100635AB8 /* SacKinghacks2018UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54A8B01021A0B99500635AB8 /* Sachacks2018 */ = {
+		54A8B04C21A0BEA000635AB8 /* SacKinghacks2018 */ = {
 			isa = PBXGroup;
 			children = (
-				54A8B01121A0B99500635AB8 /* AppDelegate.swift */,
-				54A8B01321A0B99500635AB8 /* MasterViewController.swift */,
-				54A8B01521A0B99500635AB8 /* DetailViewController.swift */,
-				54A8B01721A0B99500635AB8 /* Main.storyboard */,
-				54A8B01A21A0B99600635AB8 /* Assets.xcassets */,
-				54A8B01C21A0B99600635AB8 /* LaunchScreen.storyboard */,
-				54A8B01F21A0B99600635AB8 /* Info.plist */,
+				54A8B04D21A0BEA000635AB8 /* AppDelegate.swift */,
+				54A8B04F21A0BEA000635AB8 /* ViewController.swift */,
+				54A8B05121A0BEA000635AB8 /* Main.storyboard */,
+				54A8B05421A0BEA100635AB8 /* Assets.xcassets */,
+				54A8B05621A0BEA100635AB8 /* LaunchScreen.storyboard */,
+				54A8B05921A0BEA100635AB8 /* Info.plist */,
 			);
-			path = Sachacks2018;
+			path = SacKinghacks2018;
 			sourceTree = "<group>";
 		};
-		54A8B02721A0B99600635AB8 /* Sachacks2018Tests */ = {
+		54A8B06121A0BEA100635AB8 /* SacKinghacks2018Tests */ = {
 			isa = PBXGroup;
 			children = (
-				54A8B02821A0B99600635AB8 /* Sachacks2018Tests.swift */,
-				54A8B02A21A0B99600635AB8 /* Info.plist */,
+				54A8B06221A0BEA100635AB8 /* SacKinghacks2018Tests.swift */,
+				54A8B06421A0BEA100635AB8 /* Info.plist */,
 			);
-			path = Sachacks2018Tests;
+			path = SacKinghacks2018Tests;
 			sourceTree = "<group>";
 		};
-		54A8B03221A0B99600635AB8 /* Sachacks2018UITests */ = {
+		54A8B06C21A0BEA100635AB8 /* SacKinghacks2018UITests */ = {
 			isa = PBXGroup;
 			children = (
-				54A8B03321A0B99600635AB8 /* Sachacks2018UITests.swift */,
-				54A8B03521A0B99600635AB8 /* Info.plist */,
+				54A8B06D21A0BEA100635AB8 /* SacKinghacks2018UITests.swift */,
+				54A8B06F21A0BEA100635AB8 /* Info.plist */,
 			);
-			path = Sachacks2018UITests;
+			path = SacKinghacks2018UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54A8B00D21A0B99500635AB8 /* Sachacks2018 */ = {
+		54A8B04921A0BEA000635AB8 /* SacKinghacks2018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54A8B03821A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018" */;
+			buildConfigurationList = 54A8B07221A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018" */;
 			buildPhases = (
-				54A8B00A21A0B99500635AB8 /* Sources */,
-				54A8B00B21A0B99500635AB8 /* Frameworks */,
-				54A8B00C21A0B99500635AB8 /* Resources */,
+				54A8B04621A0BEA000635AB8 /* Sources */,
+				54A8B04721A0BEA000635AB8 /* Frameworks */,
+				54A8B04821A0BEA000635AB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Sachacks2018;
-			productName = Sachacks2018;
-			productReference = 54A8B00E21A0B99500635AB8 /* Sachacks2018.app */;
+			name = SacKinghacks2018;
+			productName = SacKinghacks2018;
+			productReference = 54A8B04A21A0BEA000635AB8 /* SacKinghacks2018.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54A8B02321A0B99600635AB8 /* Sachacks2018Tests */ = {
+		54A8B05D21A0BEA100635AB8 /* SacKinghacks2018Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54A8B03B21A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018Tests" */;
+			buildConfigurationList = 54A8B07521A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018Tests" */;
 			buildPhases = (
-				54A8B02021A0B99600635AB8 /* Sources */,
-				54A8B02121A0B99600635AB8 /* Frameworks */,
-				54A8B02221A0B99600635AB8 /* Resources */,
+				54A8B05A21A0BEA100635AB8 /* Sources */,
+				54A8B05B21A0BEA100635AB8 /* Frameworks */,
+				54A8B05C21A0BEA100635AB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54A8B02621A0B99600635AB8 /* PBXTargetDependency */,
+				54A8B06021A0BEA100635AB8 /* PBXTargetDependency */,
 			);
-			name = Sachacks2018Tests;
-			productName = Sachacks2018Tests;
-			productReference = 54A8B02421A0B99600635AB8 /* Sachacks2018Tests.xctest */;
+			name = SacKinghacks2018Tests;
+			productName = SacKinghacks2018Tests;
+			productReference = 54A8B05E21A0BEA100635AB8 /* SacKinghacks2018Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		54A8B02E21A0B99600635AB8 /* Sachacks2018UITests */ = {
+		54A8B06821A0BEA100635AB8 /* SacKinghacks2018UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54A8B03E21A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018UITests" */;
+			buildConfigurationList = 54A8B07821A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018UITests" */;
 			buildPhases = (
-				54A8B02B21A0B99600635AB8 /* Sources */,
-				54A8B02C21A0B99600635AB8 /* Frameworks */,
-				54A8B02D21A0B99600635AB8 /* Resources */,
+				54A8B06521A0BEA100635AB8 /* Sources */,
+				54A8B06621A0BEA100635AB8 /* Frameworks */,
+				54A8B06721A0BEA100635AB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54A8B03121A0B99600635AB8 /* PBXTargetDependency */,
+				54A8B06B21A0BEA100635AB8 /* PBXTargetDependency */,
 			);
-			name = Sachacks2018UITests;
-			productName = Sachacks2018UITests;
-			productReference = 54A8B02F21A0B99600635AB8 /* Sachacks2018UITests.xctest */;
+			name = SacKinghacks2018UITests;
+			productName = SacKinghacks2018UITests;
+			productReference = 54A8B06921A0BEA100635AB8 /* SacKinghacks2018UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54A8B00621A0B99500635AB8 /* Project object */ = {
+		54A8B04221A0BEA000635AB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "David Lee";
 				TargetAttributes = {
-					54A8B00D21A0B99500635AB8 = {
+					54A8B04921A0BEA000635AB8 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					54A8B02321A0B99600635AB8 = {
+					54A8B05D21A0BEA100635AB8 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 54A8B00D21A0B99500635AB8;
+						TestTargetID = 54A8B04921A0BEA000635AB8;
 					};
-					54A8B02E21A0B99600635AB8 = {
+					54A8B06821A0BEA100635AB8 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 54A8B00D21A0B99500635AB8;
+						TestTargetID = 54A8B04921A0BEA000635AB8;
 					};
 				};
 			};
-			buildConfigurationList = 54A8B00921A0B99500635AB8 /* Build configuration list for PBXProject "Sachacks2018" */;
+			buildConfigurationList = 54A8B04521A0BEA000635AB8 /* Build configuration list for PBXProject "SacKinghacks2018" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 54A8B00521A0B99500635AB8;
-			productRefGroup = 54A8B00F21A0B99500635AB8 /* Products */;
+			mainGroup = 54A8B04121A0BEA000635AB8;
+			productRefGroup = 54A8B04B21A0BEA000635AB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54A8B00D21A0B99500635AB8 /* Sachacks2018 */,
-				54A8B02321A0B99600635AB8 /* Sachacks2018Tests */,
-				54A8B02E21A0B99600635AB8 /* Sachacks2018UITests */,
+				54A8B04921A0BEA000635AB8 /* SacKinghacks2018 */,
+				54A8B05D21A0BEA100635AB8 /* SacKinghacks2018Tests */,
+				54A8B06821A0BEA100635AB8 /* SacKinghacks2018UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54A8B00C21A0B99500635AB8 /* Resources */ = {
+		54A8B04821A0BEA000635AB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A8B01E21A0B99600635AB8 /* LaunchScreen.storyboard in Resources */,
-				54A8B01B21A0B99600635AB8 /* Assets.xcassets in Resources */,
-				54A8B01921A0B99500635AB8 /* Main.storyboard in Resources */,
+				54A8B05821A0BEA100635AB8 /* LaunchScreen.storyboard in Resources */,
+				54A8B05521A0BEA100635AB8 /* Assets.xcassets in Resources */,
+				54A8B05321A0BEA000635AB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02221A0B99600635AB8 /* Resources */ = {
+		54A8B05C21A0BEA100635AB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02D21A0B99600635AB8 /* Resources */ = {
+		54A8B06721A0BEA100635AB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54A8B00A21A0B99500635AB8 /* Sources */ = {
+		54A8B04621A0BEA000635AB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A8B01621A0B99500635AB8 /* DetailViewController.swift in Sources */,
-				54A8B01421A0B99500635AB8 /* MasterViewController.swift in Sources */,
-				54A8B01221A0B99500635AB8 /* AppDelegate.swift in Sources */,
+				54A8B05021A0BEA000635AB8 /* ViewController.swift in Sources */,
+				54A8B04E21A0BEA000635AB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02021A0B99600635AB8 /* Sources */ = {
+		54A8B05A21A0BEA100635AB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A8B02921A0B99600635AB8 /* Sachacks2018Tests.swift in Sources */,
+				54A8B06321A0BEA100635AB8 /* SacKinghacks2018Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8B02B21A0B99600635AB8 /* Sources */ = {
+		54A8B06521A0BEA100635AB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A8B03421A0B99600635AB8 /* Sachacks2018UITests.swift in Sources */,
+				54A8B06E21A0BEA100635AB8 /* SacKinghacks2018UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54A8B02621A0B99600635AB8 /* PBXTargetDependency */ = {
+		54A8B06021A0BEA100635AB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54A8B00D21A0B99500635AB8 /* Sachacks2018 */;
-			targetProxy = 54A8B02521A0B99600635AB8 /* PBXContainerItemProxy */;
+			target = 54A8B04921A0BEA000635AB8 /* SacKinghacks2018 */;
+			targetProxy = 54A8B05F21A0BEA100635AB8 /* PBXContainerItemProxy */;
 		};
-		54A8B03121A0B99600635AB8 /* PBXTargetDependency */ = {
+		54A8B06B21A0BEA100635AB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54A8B00D21A0B99500635AB8 /* Sachacks2018 */;
-			targetProxy = 54A8B03021A0B99600635AB8 /* PBXContainerItemProxy */;
+			target = 54A8B04921A0BEA000635AB8 /* SacKinghacks2018 */;
+			targetProxy = 54A8B06A21A0BEA100635AB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54A8B01721A0B99500635AB8 /* Main.storyboard */ = {
+		54A8B05121A0BEA000635AB8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54A8B01821A0B99500635AB8 /* Base */,
+				54A8B05221A0BEA000635AB8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		54A8B01C21A0B99600635AB8 /* LaunchScreen.storyboard */ = {
+		54A8B05621A0BEA100635AB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54A8B01D21A0B99600635AB8 /* Base */,
+				54A8B05721A0BEA100635AB8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54A8B03621A0B99600635AB8 /* Debug */ = {
+		54A8B07021A0BEA100635AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		54A8B03721A0B99600635AB8 /* Release */ = {
+		54A8B07121A0BEA100635AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,158 +428,158 @@
 			};
 			name = Release;
 		};
-		54A8B03921A0B99600635AB8 /* Debug */ = {
+		54A8B07321A0BEA100635AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		54A8B03A21A0B99600635AB8 /* Release */ = {
+		54A8B07421A0BEA100635AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		54A8B03C21A0B99600635AB8 /* Debug */ = {
+		54A8B07621A0BEA100635AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018Tests/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sachacks2018.app/Sachacks2018";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SacKinghacks2018.app/SacKinghacks2018";
 			};
 			name = Debug;
 		};
-		54A8B03D21A0B99600635AB8 /* Release */ = {
+		54A8B07721A0BEA100635AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018Tests/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sachacks2018.app/Sachacks2018";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SacKinghacks2018.app/SacKinghacks2018";
 			};
 			name = Release;
 		};
-		54A8B03F21A0B99600635AB8 /* Debug */ = {
+		54A8B07921A0BEA100635AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018UITests/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sachacks2018;
+				TEST_TARGET_NAME = SacKinghacks2018;
 			};
 			name = Debug;
 		};
-		54A8B04021A0B99600635AB8 /* Release */ = {
+		54A8B07A21A0BEA100635AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sachacks2018UITests/Info.plist;
+				INFOPLIST_FILE = SacKinghacks2018UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Team.Sachacks2018UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Team.SacKinghacks2018UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sachacks2018;
+				TEST_TARGET_NAME = SacKinghacks2018;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54A8B00921A0B99500635AB8 /* Build configuration list for PBXProject "Sachacks2018" */ = {
+		54A8B04521A0BEA000635AB8 /* Build configuration list for PBXProject "SacKinghacks2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A8B03621A0B99600635AB8 /* Debug */,
-				54A8B03721A0B99600635AB8 /* Release */,
+				54A8B07021A0BEA100635AB8 /* Debug */,
+				54A8B07121A0BEA100635AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54A8B03821A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018" */ = {
+		54A8B07221A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A8B03921A0B99600635AB8 /* Debug */,
-				54A8B03A21A0B99600635AB8 /* Release */,
+				54A8B07321A0BEA100635AB8 /* Debug */,
+				54A8B07421A0BEA100635AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54A8B03B21A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018Tests" */ = {
+		54A8B07521A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A8B03C21A0B99600635AB8 /* Debug */,
-				54A8B03D21A0B99600635AB8 /* Release */,
+				54A8B07621A0BEA100635AB8 /* Debug */,
+				54A8B07721A0BEA100635AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54A8B03E21A0B99600635AB8 /* Build configuration list for PBXNativeTarget "Sachacks2018UITests" */ = {
+		54A8B07821A0BEA100635AB8 /* Build configuration list for PBXNativeTarget "SacKinghacks2018UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A8B03F21A0B99600635AB8 /* Debug */,
-				54A8B04021A0B99600635AB8 /* Release */,
+				54A8B07921A0BEA100635AB8 /* Debug */,
+				54A8B07A21A0BEA100635AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54A8B00621A0B99500635AB8 /* Project object */;
+	rootObject = 54A8B04221A0BEA000635AB8 /* Project object */;
 }

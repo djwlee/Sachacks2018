@@ -1,6 +1,6 @@
 //
-//  Sachacks2018UITests.swift
-//  Sachacks2018UITests
+//  SacKinghacks2018UITests.swift
+//  SacKinghacks2018UITests
 //
 //  Created by David Lee on 11/17/18.
 //  Copyright © 2018 David Lee. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Sachacks2018UITests: XCTestCase {
+class SacKinghacks2018UITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
