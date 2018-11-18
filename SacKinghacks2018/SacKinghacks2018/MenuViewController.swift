@@ -15,7 +15,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var trailingC: NSLayoutConstraint!
     @IBOutlet weak var leadingC: NSLayoutConstraint!
     @IBOutlet weak var whiteView: UIView!
-    
+    @IBOutlet weak var Ranklabel: UILabel!
     
     
     var hamburgerMenuIsVisible = false
@@ -25,10 +25,14 @@ class MenuViewController: UIViewController {
             leadingC.constant = 150
             trailingC.constant = -150
             hamburgerMenuIsVisible = true
+            Ranklabel.isHidden = true
+            
+            
         }else{
             leadingC.constant = 0
             trailingC.constant = 0
             hamburgerMenuIsVisible = false
+            Ranklabel.isHidden = false
         }
     }
     override func viewDidLoad() {
