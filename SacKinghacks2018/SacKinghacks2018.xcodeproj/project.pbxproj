@@ -20,6 +20,8 @@
 		54A8B05821A0BEA100635AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A8B05621A0BEA100635AB8 /* LaunchScreen.storyboard */; };
 		54A8B06321A0BEA100635AB8 /* SacKinghacks2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B06221A0BEA100635AB8 /* SacKinghacks2018Tests.swift */; };
 		54A8B06E21A0BEA100635AB8 /* SacKinghacks2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8B06D21A0BEA100635AB8 /* SacKinghacks2018UITests.swift */; };
+		5D1FA95721A11DD30029FF44 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FA95621A11DD30029FF44 /* PlayersViewController.swift */; };
+		5D1FA95921A12C3A0029FF44 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FA95821A12C3A0029FF44 /* PlayerCell.swift */; };
 		7EC601AEBBF8D79A3836383A /* Pods_SacKinghacks2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B26CC05D29F654D5670AC /* Pods_SacKinghacks2018Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		54A8B06921A0BEA100635AB8 /* SacKinghacks2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacKinghacks2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A8B06D21A0BEA100635AB8 /* SacKinghacks2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacKinghacks2018UITests.swift; sourceTree = "<group>"; };
 		54A8B06F21A0BEA100635AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1FA95621A11DD30029FF44 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		5D1FA95821A12C3A0029FF44 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		872B26CC05D29F654D5670AC /* Pods_SacKinghacks2018Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SacKinghacks2018Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E859069ADA7C2D5AA56175 /* Pods-SacKinghacks2018Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SacKinghacks2018Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SacKinghacks2018Tests/Pods-SacKinghacks2018Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A447790E7994B0C9A02F0508 /* Pods-SacKinghacks2018UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SacKinghacks2018UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SacKinghacks2018UITests/Pods-SacKinghacks2018UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				54A8B05921A0BEA100635AB8 /* Info.plist */,
 				540934DF21A1160600872FBE /* GoogleService-Info.plist */,
 				540934DD21A1158D00872FBE /* Sachacks2018 */,
+				5D1FA95621A11DD30029FF44 /* PlayersViewController.swift */,
+				5D1FA95821A12C3A0029FF44 /* PlayerCell.swift */,
 			);
 			path = SacKinghacks2018;
 			sourceTree = "<group>";
@@ -407,10 +413,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1FA95921A12C3A0029FF44 /* PlayerCell.swift in Sources */,
 				54A8B05021A0BEA000635AB8 /* MenuViewController.swift in Sources */,
 				540934DA21A0FC5B00872FBE /* LoginViewController.swift in Sources */,
 				540934DC21A0FEDA00872FBE /* RegistrationViewController.swift in Sources */,
 				54A8B04E21A0BEA000635AB8 /* AppDelegate.swift in Sources */,
+				5D1FA95721A11DD30029FF44 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

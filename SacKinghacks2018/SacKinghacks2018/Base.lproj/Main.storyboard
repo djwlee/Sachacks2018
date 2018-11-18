@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -107,7 +107,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDJ-T6-NB3">
                                         <rect key="frame" x="0.0" y="0.0" width="62" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="My Team">
+                                        <state key="normal" title="Players">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
@@ -238,20 +238,95 @@
             </objects>
             <point key="canvasLocation" x="1109.5999999999999" y="516.79160419790105"/>
         </scene>
-        <!--View Controller-->
+        <!--Players View Controller-->
         <scene sceneID="Ln6-t7-rxS">
             <objects>
-                <viewController id="2pI-Sk-as7" sceneMemberID="viewController">
+                <viewController id="2pI-Sk-as7" customClass="PlayersViewController" customModule="SacKinghacks2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hk3-KF-2Za">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IEt-vC-1eY">
+                                <rect key="frame" x="16" y="179" width="343" height="444"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" red="0.36862745098039218" green="0.32941176470588235" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="125" id="fsV-KI-DdQ" customClass="PlayerCell" customModule="SacKinghacks2018" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="playerCell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fsV-KI-DdQ" id="d8o-Td-pMD" customClass="PlayerCell" customModule="SacKinghacks2018" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="124.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZl-25-AYk">
+                                                    <rect key="frame" x="105.5" y="11" width="56.5" height="103"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="number"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="103" id="Y4k-iD-UCG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Name&gt;" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spi-vL-OC8">
+                                                    <rect key="frame" x="170" y="11" width="158" height="68"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="name"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="158" id="6pQ-iI-DGr"/>
+                                                        <constraint firstAttribute="height" constant="68" id="GtW-rZ-b86"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGS-Lt-dHR">
+                                                    <rect key="frame" x="170" y="87" width="158" height="21"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="position"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="158" id="Sqj-xv-OBE"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Spi-vL-OC8" firstAttribute="trailing" secondItem="d8o-Td-pMD" secondAttribute="trailingMargin" id="01O-pL-wNR"/>
+                                                <constraint firstItem="LZl-25-AYk" firstAttribute="top" secondItem="d8o-Td-pMD" secondAttribute="topMargin" id="FZ4-Pp-mLu"/>
+                                                <constraint firstItem="IGS-Lt-dHR" firstAttribute="trailing" secondItem="d8o-Td-pMD" secondAttribute="trailingMargin" id="TzE-WC-j4t"/>
+                                                <constraint firstItem="Spi-vL-OC8" firstAttribute="leading" secondItem="LZl-25-AYk" secondAttribute="trailing" constant="8" id="UhW-tc-pGa"/>
+                                                <constraint firstItem="LZl-25-AYk" firstAttribute="bottom" secondItem="d8o-Td-pMD" secondAttribute="bottomMargin" id="YdR-Mz-quQ"/>
+                                                <constraint firstItem="Spi-vL-OC8" firstAttribute="leading" secondItem="LZl-25-AYk" secondAttribute="trailing" constant="8" id="dpw-gP-enp"/>
+                                                <constraint firstItem="LZl-25-AYk" firstAttribute="bottom" secondItem="d8o-Td-pMD" secondAttribute="bottomMargin" id="iKN-ak-0NW"/>
+                                                <constraint firstItem="IGS-Lt-dHR" firstAttribute="top" secondItem="Spi-vL-OC8" secondAttribute="bottom" constant="8" id="iy3-vS-qRm"/>
+                                                <constraint firstItem="LZl-25-AYk" firstAttribute="top" secondItem="d8o-Td-pMD" secondAttribute="topMargin" id="lQh-9X-c1Z"/>
+                                                <constraint firstItem="Spi-vL-OC8" firstAttribute="top" secondItem="d8o-Td-pMD" secondAttribute="topMargin" id="lTV-gL-r79"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.36862745098039218" green="0.32941176470588235" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="name" destination="Spi-vL-OC8" id="9ux-HM-oQy"/>
+                                            <outlet property="number" destination="LZl-25-AYk" id="aUb-eJ-pa2"/>
+                                            <outlet property="position" destination="IGS-Lt-dHR" id="dU0-Rp-0rC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Axe-Kf-nMP"/>
                     </view>
+                    <connections>
+                        <outlet property="PlayersTable" destination="IEt-vC-1eY" id="hTY-mi-Ebl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zc3-PJ-8wT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2305" y="431"/>
+            <point key="canvasLocation" x="2304.8000000000002" y="430.43478260869568"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="D0P-QT-Tb0">
@@ -303,7 +378,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-menu-filled-50" width="37.5" height="37.5"/>
+        <image name="icons8-menu-filled-50" width="50" height="50"/>
     </resources>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
